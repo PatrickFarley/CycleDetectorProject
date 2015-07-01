@@ -23,7 +23,7 @@ public class Driver {
 	public static void main(String[] args) {
 		try {
 			NeuronGraph graph = new NeuronGraph(vertexCount);
-			graph.fillGraph("elegans orig.txt");
+			graph.fillGraph("source.txt");
 			String result = graph.cycleTest(originalVertex);
 			System.out.println(result);
 		
